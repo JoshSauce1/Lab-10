@@ -54,7 +54,18 @@ button {
     height: 200px;
     background-color: #33091b;
     margin-left: 6%;
+    -webkit-animation-name: text-animation,color;
+animation-name: text-animation,color; /* name of the animation */
+
+-webkit-animation-duration: 5s;
+
+animation-duration: 5s;
+
+-webkit-animation-iteration-count: infinite;
+
+animation-iteration-count: infinite; 
 }
+
 
 /* Animation */
  @-webkit-keyframes color {
@@ -65,7 +76,7 @@ button {
  from { background-color: #fbdae9; }
  to { background-color: #660b32; }
  }
- 
+
 /* Style rules for the footer */
 footer {
 	font-size: .90em;
